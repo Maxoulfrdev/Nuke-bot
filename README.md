@@ -10,10 +10,6 @@
     \__|     \__| \_______|\__/  \__| \______/  \______/  
     Si il y a des erreurs contacter maxoulfr_ sur discord.
 
-| Presser | 
-| ------------- | 
-| ![Presser](https://cdn.discordapp.com/attachments/1186726564688310312/1321973575279968329/nuke.png?ex=676f2f55&is=676dddd5&hm=9019b7b3806f81ec86324d14457e1f69a252b9a128c67bd1ec4dd3e7becf05e9&) |
-
 ![](https://img.shields.io/github/watchers/Maxoulfrdev/Nuke-bot?style=social) ![](https://img.shields.io/github/stars/Maxoulfrdev/Nuke-bot?style=social) ![](https://img.shields.io/github/forks/Maxoulfrdev/Nuke-bot?style=social)
 
 ## Caractéristiques:
