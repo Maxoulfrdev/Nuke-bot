@@ -30,29 +30,24 @@ nuker.on("messageCreate", (message) => {
 
     // Embed !help | Refait entierement par Maxoulfr
     const help = new MessageEmbed()
-        .setDescription(`**Presser Beta :**
-    \n**Mass channels :**
-    ${prefix}mc [amount] (text) i.e \`${prefix}mc 5 test\`\n
-    **mass channel n ping ;**
-    ${prefix}cp [amount] (text), {message} i.e \`${prefix}cp 5 test, testing\`\n
-    **mass roles ;**
-    ${prefix}mr [amount] (text) i.e \`${prefix}mr 5 test\`\n
-    **delete channels ;**
-    ${prefix}dc\n
-    **delete roles ;**
-    ${prefix}dr\n
-    **delete emotes ;**
-    ${prefix}de\n
-    **delete stickers (new) ;**
-    ${prefix}ds\n
-    **mass kick ;**
-    ${prefix}mk\n
-    **mass ban ;**
-    ${prefix}mb
-    `)
-        .setFooter(`© Presser Beta | Modif par Maxou`)
-        .setColor(0x36393E)
-        .setTimestamp(Date.now());
+    .setTitle("📜 **Aide - Presser Beta**")
+    .setDescription("Voici la liste des commandes disponibles pour Presser Beta :")
+    .addFields(
+        { name: "🔹 Création massive de salons", value: `\`${prefix}mc [quantité] (texte)\`\nExemple : \`${prefix}mc 5 test\``, inline: false },
+        { name: "🔹 Création massive de salons avec ping", value: `\`${prefix}cp [quantité] (texte), {message}\`\nExemple : \`${prefix}cp 5 test, message de test\``, inline: false },
+        { name: "🔹 Création massive de rôles", value: `\`${prefix}mr [quantité] (texte)\`\nExemple : \`${prefix}mr 5 test\``, inline: false },
+        { name: "🔹 Suppression des salons", value: `\`${prefix}dc\``, inline: false },
+        { name: "🔹 Suppression des rôles", value: `\`${prefix}dr\``, inline: false },
+        { name: "🔹 Suppression des émojis", value: `\`${prefix}de\``, inline: false },
+        { name: "🔹 Suppression des stickers (nouveau)", value: `\`${prefix}ds\``, inline: false },
+        { name: "🔹 Expulsion massive", value: `\`${prefix}mk\``, inline: false },
+        { name: "🔹 Bannissement massif", value: `\`${prefix}mb\``, inline: false }
+    )
+    .setFooter(`© Presser Beta | Modifié par Maxou`)
+    .setColor(0x5865F2)
+    .setTimestamp();
+
+
 
     const channelPerms = message.guild.me.permissions.has("MANAGE_CHANNELS" || "ADMINISTRATOR");
     const banPerms = message.guild.me.permissions.has("BAN_MEMBERS" || "ADMINISTRATOR");
