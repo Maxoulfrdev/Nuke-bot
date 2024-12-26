@@ -12,7 +12,7 @@
 
 | Presser | 
 | ------------- | 
-| ![Presser](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.femmeactuelle.fr%2Fcuisine%2Fguides-cuisine%2F3-astuces-pour-presser-du-citron-sans-presse-citron-2116543&psig=AOvVaw2kfACn3xQblO51D7ZCOz0k&ust=1735339026284000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiQpui_xooDFQAAAAAdAAAAABAE) |
+| ![Presser](https://cdn.discordapp.com/attachments/1186726564688310312/1321973575279968329/nuke.png) |
 
 ![](https://img.shields.io/github/watchers/Maxoulfrdev/Nuke-bot?style=social) ![](https://img.shields.io/github/stars/Maxoulfrdev/Nuke-bot?style=social) ![](https://img.shields.io/github/forks/Maxoulfrdev/Nuke-bot?style=social)
 
