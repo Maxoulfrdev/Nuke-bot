@@ -1,0 +1,6 @@
+{
+    "token": "TOKEN_DU_BOT",
+    "prefix": "!",
+    "userID": "ID_DE_LA_PERSONNE_QUI_INVITE_LE_BOT",
+    "disableEveryone": true
+}
